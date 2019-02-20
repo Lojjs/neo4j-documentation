@@ -95,7 +95,7 @@
             <dependency>
                 <groupId>org.scalatest</groupId>
                 <artifactId>scalatest_${scala.binary.version}</artifactId>
-                <version>2.2.5</version>
+                <version>3.0.5</version>
                 <scope>test</scope>
                 <exclusions>
                     <exclusion>
@@ -128,7 +128,6 @@
             <dependency>
                 <groupId>org.parboiled</groupId>
                 <artifactId>parboiled-scala_${scala.binary.version}</artifactId>
-                <version>1.1.7</version>
                 <exclusions>
                     <exclusion>
                         <artifactId>scala-library</artifactId>
